@@ -16,11 +16,15 @@ body {
 .headerFont {
     font-family: 'Open Sans', sans-serif;
     font-weight: 900; 
+    text-align: center;
 }
 
 .subheader {
     font-family: 'Montserrat', sans-serif;
     font-weight: 400; 
+    background-color: #8FC0A9;
+    text-align: center;
+    padding: 5px; 
 }
 
 p, li, ol, ul, table, td, th, a {
@@ -32,7 +36,7 @@ img {
 }
 
 ul {
-    border-style: double;
+    border-style: solid;
     border-color: #696d7d;
     border-width: 5px;
 }
