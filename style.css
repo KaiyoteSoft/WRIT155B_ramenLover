@@ -6,3 +6,33 @@ table, th, td {
 th, td {
     padding: 5px; 
 }
+
+body {
+    background: #faf3dd;
+    margin: 0 auto;
+    width: fit-content;
+}
+
+.headerFont {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 900; 
+}
+
+.subheader {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400; 
+}
+
+p, li, ol, ul, table, td, th, a {
+    font-family: 'PT Serif', serif;
+}
+
+img {
+    margin: 10px; 
+}
+
+ul {
+    border-style: double;
+    border-color: #696d7d;
+    border-width: 5px;
+}
