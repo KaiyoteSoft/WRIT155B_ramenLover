@@ -8,7 +8,7 @@ th, td {
 }
 
 body {
-    background: #faf3dd;
+    background: #faf3dd url("beige005.jpg");
     margin: 0 auto;
     width: fit-content;
 }
@@ -36,7 +36,47 @@ img {
 }
 
 ul {
-    border-style: solid;
-    border-color: #696d7d;
-    border-width: 5px;
+    border: 5px #696d7d solid;
+}
+
+#top h6 { 
+    font-weight: 900;
+}
+
+#top {
+    background: ;
+}
+
+#middle {
+    background-color: #68B0AB;
+    padding: 10px;
+
+}
+
+#photoBlock {
+ background-color: #696D7D;
+ padding: 10px; 
+ margin: 10px 0px; 
+ color: #faf3dd; 
+}
+
+.ramenLover {
+    background-color: yellowgreen;
+    color: black; 
+}
+
+:link {
+    color: blue; 
+}
+
+:visited { 
+    color: purple;
+}
+
+a:active {
+    color: red; 
+}
+
+a:hover {
+    font-weight: bold; 
 }
